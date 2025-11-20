@@ -9,7 +9,7 @@ const stats = [
   {
     icon: Building2,
     value: "50+",
-    label: "Processus automatisés",
+    label: "Process automatisés",
   },
   {
     icon: Globe,
@@ -27,15 +27,18 @@ export function Stats() {
   return (
     <section className="bg-gradient-to-br from-[#0A141A] via-[#0D1B24] to-[#000000] py-12 rounded-1xl overflow-hidden">
       <div className="container mx-auto px-15">
+        
+        {/* TITRE */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl mb-4 text-white">
             Ils nous font confiance
           </h2>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-            Rejoignez des centaines d'entreprises qui transforment leur activité avec l'IA
+            Rejoignez des dizaines d’entreprises qui transforment leurs opérations grâce à l’IA
           </p>
         </div>
 
+        {/* GRID */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, index) => {
             const Icon = stat.icon;
@@ -50,6 +53,7 @@ export function Stats() {
             );
           })}
         </div>
+
       </div>
     </section>
   );

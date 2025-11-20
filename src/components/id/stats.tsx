@@ -4,22 +4,22 @@ const stats = [
   {
     icon: Users,
     value: "50+",
-    label: "Clients actifs",
+    label: "Klien aktif",
   },
   {
     icon: Building2,
     value: "50+",
-    label: "Processus automatisés",
+    label: "Proses terotomatisasi",
   },
   {
     icon: Globe,
     value: "100%",
-    label: "Expertise française",
+    label: "Keahlian Prancis",
   },
   {
     icon: Award,
     value: "98%",
-    label: "Satisfaction client",
+    label: "Kepuasan klien",
   },
 ];
 
@@ -29,10 +29,11 @@ export function Stats() {
       <div className="container mx-auto px-15">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl mb-4 text-white">
-            Ils nous font confiance
+            Mereka mempercayai kami
           </h2>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-            Rejoignez des centaines d'entreprises qui transforment leur activité avec l'IA
+            Bergabunglah dengan ratusan bisnis yang telah mentransformasi
+            operasi mereka dengan AI
           </p>
         </div>
 

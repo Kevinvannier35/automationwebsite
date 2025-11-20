@@ -4,22 +4,22 @@ const steps = [
   {
     icon: Search,
     title: "Analyse",
-    description: "Nous analysons vos processus actuels pour identifier les opportunités d'automatisation.",
+    description: "Nous analysons vos processus actuels pour identifier les opportunités d’automatisation.",
   },
   {
     icon: Lightbulb,
     title: "Conception",
-    description: "Nous concevons une solution IA sur mesure adaptée à vos besoins spécifiques.",
+    description: "Nous concevons une solution IA sur mesure, adaptée à vos besoins.",
   },
   {
     icon: Rocket,
     title: "Déploiement",
-    description: "Nous déployons et intégrons la solution dans votre infrastructure existante.",
+    description: "Nous déployons la solution et l’intégrons dans votre infrastructure existante.",
   },
   {
     icon: TrendingUp,
     title: "Optimisation",
-    description: "Nous suivons les performances et optimisons continuellement votre système.",
+    description: "Nous surveillons les performances et optimisons continuellement votre système.",
   },
 ];
 
@@ -29,10 +29,10 @@ export function HowItWorks() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl mb-4 text-gray-900">
-            Comment ça marche ?
+            Comment ça fonctionne ?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Un processus simple et efficace en 4 étapes
+            Un processus simple et ultra efficace en 4 étapes
           </p>
         </div>
 

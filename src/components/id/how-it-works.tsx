@@ -3,23 +3,23 @@ import { Search, Lightbulb, Rocket, TrendingUp } from "lucide-react";
 const steps = [
   {
     icon: Search,
-    title: "Analyse",
-    description: "Nous analysons vos processus actuels pour identifier les opportunités d'automatisation.",
+    title: "Analisis",
+    description: "Kami menganalisis proses Anda untuk menemukan peluang otomatisasi.",
   },
   {
     icon: Lightbulb,
-    title: "Conception",
-    description: "Nous concevons une solution IA sur mesure adaptée à vos besoins spécifiques.",
+    title: "Desain",
+    description: "Kami merancang solusi AI yang disesuaikan dengan kebutuhan Anda.",
   },
   {
     icon: Rocket,
-    title: "Déploiement",
-    description: "Nous déployons et intégrons la solution dans votre infrastructure existante.",
+    title: "Implementasi",
+    description: "Kami menerapkan dan mengintegrasikan solusi ke infrastruktur Anda.",
   },
   {
     icon: TrendingUp,
-    title: "Optimisation",
-    description: "Nous suivons les performances et optimisons continuellement votre système.",
+    title: "Optimisasi",
+    description: "Kami memonitor performa dan terus mengoptimalkan sistem Anda.",
   },
 ];
 
@@ -29,10 +29,10 @@ export function HowItWorks() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl mb-4 text-gray-900">
-            Comment ça marche ?
+            Bagaimana cara kerjanya?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Un processus simple et efficace en 4 étapes
+            Proses sederhana dan efektif dalam 4 langkah
           </p>
         </div>
 

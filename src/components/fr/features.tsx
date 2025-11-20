@@ -5,32 +5,32 @@ const features = [
   {
     icon: Bot,
     title: "Chatbots IA",
-    description: "Automatisez votre service client avec des chatbots intelligents disponibles 24/7.",
+    description: "Automatisez votre support client grâce à des chatbots intelligents disponibles 24h/24.",
   },
   {
     icon: Workflow,
-    title: "Automatisation des processus",
-    description: "Éliminez les tâches répétitives et laissez l'IA gérer vos workflows.",
+    title: "Automatisation de processus",
+    description: "Supprimez les tâches répétitives et laissez l’IA gérer vos workflows.",
   },
   {
     icon: BarChart3,
     title: "Analyse prédictive",
-    description: "Prenez de meilleures décisions grâce à l'analyse de données par IA.",
+    description: "Prenez de meilleures décisions grâce à l’analyse de données pilotée par l’IA.",
   },
   {
     icon: Zap,
     title: "Intégrations rapides",
-    description: "Connectez vos outils existants en quelques clics sans code.",
+    description: "Connectez vos outils existants en quelques clics, sans développement.",
   },
   {
     icon: Lock,
-    title: "Sécurisé & Conforme",
-    description: "Vos données sont protégées selon les normes les plus strictes.",
+    title: "Sécurité & conformité",
+    description: "Vos données sont protégées selon les standards de sécurité les plus exigeants.",
   },
   {
     icon: RefreshCw,
     title: "Amélioration continue",
-    description: "L'IA apprend et s'améliore automatiquement au fil du temps.",
+    description: "Votre système évolue et s’optimise automatiquement grâce au machine learning.",
   },
 ];
 
@@ -40,10 +40,10 @@ export function Features() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl mb-4 text-gray-900">
-            Nos solutions d'automatisation
+            Nos solutions d’automatisation
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Des technologies IA de pointe pour transformer votre entreprise
+            Des technologies d’IA avancées pour transformer votre entreprise
           </p>
         </div>
 

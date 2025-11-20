@@ -11,40 +11,63 @@ export function Footer() {
               <span className="text-xl text-white">Ascend Automation</span>
             </div>
             <p className="text-gray-400 mb-4">
-              Transformez votre entreprise avec l'intelligence artificielle et l'automatisation.
+              Transformasikan bisnis Anda dengan kecerdasan buatan dan otomatisasi.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+              <a
+                href="https://www.linkedin.com/in/kevin-vannier-932a931a2/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+              >
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="https://www.instagram.com/lapetite.jade35/?hl=fr" 
-                 target="_blank" 
-                 rel="noopener noreferrer"
-                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
-                >
-                 <Instagram className="w-5 h-5" />
+
+              <a
+                href="https://www.instagram.com/lapetite.jade35/?hl=fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+              >
+                <Instagram className="w-5 h-5" />
               </a>
             </div>
           </div>
 
           <div>
-            <h3 className="text-white mb-4">Services</h3>
+            <h3 className="text-white mb-4">Layanan</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-blue-500 transition-colors">Chatbots IA</a></li>
-              <li><a href="#" className="hover:text-blue-500 transition-colors">Automatisation</a></li>
-              <li><a href="#" className="hover:text-blue-500 transition-colors">Analyse de données</a></li>
-              <li><a href="#" className="hover:text-blue-500 transition-colors">Intégrations</a></li>
+              <li>
+                <a href="#" className="hover:text-blue-500 transition-colors">
+                  Chatbot AI
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-blue-500 transition-colors">
+                  Otomatisasi
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-blue-500 transition-colors">
+                  Analitik Data
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-blue-500 transition-colors">
+                  Integrasi Sistem
+                </a>
+              </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm">
-            © 2025 AI Automation. Tous droits réservés.
+            © 2025 AI Automation. Semua hak dilindungi.
           </p>
           <div className="flex gap-6 text-sm">
-            <a href="#" className="hover:text-blue-500 transition-colors">Mentions légales</a>
-            <a href="#" className="hover:text-blue-500 transition-colors">Confidentialité</a>
+            <a href="#" className="hover:text-blue-500 transition-colors">Informasi Hukum</a>
+            <a href="#" className="hover:text-blue-500 transition-colors">Kebijakan Privasi</a>
             <a href="#" className="hover:text-blue-500 transition-colors">Cookies</a>
           </div>
         </div>

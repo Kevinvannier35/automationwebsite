@@ -1,8 +1,16 @@
+// src/components/en/hero.tsx
 import { Button } from "./ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
-export function Hero() {
+type Lang = "en" | "fr" | "id";
+
+type HeroProps = {
+  lang: Lang;
+  onChangeLang: (lang: Lang) => void;
+};
+
+export function Hero({ lang, onChangeLang }: HeroProps) {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 to-white">
       {/* Navigation */}
@@ -11,6 +19,7 @@ export function Hero() {
           <Sparkles className="w-8 h-8 text-blue-600" />
           <span className="text-xl">Ascend Automation</span>
         </div>
+
         <div className="hidden md:flex items-center gap-8">
           <a
             href="#services"
@@ -30,6 +39,40 @@ export function Hero() {
           >
             Contact
           </a>
+
+          {/* Lang selector */}
+          <div className="flex items-center gap-2 ml-4 pl-4 border-l border-gray-300">
+            <button
+              className={`text-2xl hover:scale-110 transition-transform ${
+                lang === "fr" ? "opacity-100" : "opacity-60"
+              }`}
+              title="Français"
+              type="button"
+              onClick={() => onChangeLang("fr")}
+            >
+              🇫🇷
+            </button>
+            <button
+              className={`text-2xl hover:scale-110 transition-transform ${
+                lang === "en" ? "opacity-100" : "opacity-60"
+              }`}
+              title="English"
+              type="button"
+              onClick={() => onChangeLang("en")}
+            >
+              🇬🇧
+            </button>
+            <button
+              className={`text-2xl hover:scale-110 transition-transform ${
+                lang === "id" ? "opacity-100" : "opacity-60"
+              }`}
+              title="Bahasa Indonesia"
+              type="button"
+              onClick={() => onChangeLang("id")}
+            >
+              🇮🇩
+            </button>
+          </div>
         </div>
       </nav>
 
@@ -56,7 +99,6 @@ export function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              {/* Le bouton renvoie vers la section contact fixe */}
               <a href="#contact">
                 <Button size="lg" className="gap-2">
                   Talk to an expert

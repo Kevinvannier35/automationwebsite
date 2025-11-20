@@ -4,33 +4,33 @@ import { Card, CardContent } from "./ui/card";
 const features = [
   {
     icon: Bot,
-    title: "Chatbots IA",
-    description: "Automatisez votre service client avec des chatbots intelligents disponibles 24/7.",
+    title: "Chatbot AI",
+    description: "Otomatisasikan layanan pelanggan Anda dengan chatbot cerdas yang tersedia 24/7.",
   },
   {
     icon: Workflow,
-    title: "Automatisation des processus",
-    description: "Éliminez les tâches répétitives et laissez l'IA gérer vos workflows.",
+    title: "Otomatisasi Proses",
+    description: "Hilangkan tugas berulang dan biarkan AI menangani alur kerja Anda.",
   },
   {
     icon: BarChart3,
-    title: "Analyse prédictive",
-    description: "Prenez de meilleures décisions grâce à l'analyse de données par IA.",
+    title: "Analitik Prediktif",
+    description: "Buat keputusan yang lebih baik dengan analisis data berbasis AI.",
   },
   {
     icon: Zap,
-    title: "Intégrations rapides",
-    description: "Connectez vos outils existants en quelques clics sans code.",
+    title: "Integrasi Cepat",
+    description: "Hubungkan alat yang sudah Anda gunakan hanya dalam beberapa klik, tanpa perlu coding.",
   },
   {
     icon: Lock,
-    title: "Sécurisé & Conforme",
-    description: "Vos données sont protégées selon les normes les plus strictes.",
+    title: "Aman & Patuh",
+    description: "Data Anda dilindungi dengan standar keamanan tertinggi.",
   },
   {
     icon: RefreshCw,
-    title: "Amélioration continue",
-    description: "L'IA apprend et s'améliore automatiquement au fil du temps.",
+    title: "Peningkatan Berkelanjutan",
+    description: "AI terus belajar dan meningkat secara otomatis dari waktu ke waktu.",
   },
 ];
 
@@ -40,10 +40,10 @@ export function Features() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl mb-4 text-gray-900">
-            Nos solutions d'automatisation
+            Solusi Otomatisasi Kami
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Des technologies IA de pointe pour transformer votre entreprise
+            Teknologi AI terbaru untuk mentransformasikan bisnis Anda
           </p>
         </div>
 
