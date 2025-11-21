@@ -17,14 +17,17 @@ export function Footer() {
 
   return (
     <>
-      <footer className="bg-gray-900 text-gray-300 py-12">
+      <footer className="bg-white text-gray-700 py-12">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <Sparkles className="w-8 h-8 text-blue-500" />
-                <span className="text-xl text-white">Ascend Automation</span>
-              </div>
+             <div className="flex items-center gap-3 mb-4">
+               <img 
+                 src="/logo-footer.png" 
+                 alt="Ascend Automation" 
+                 className="w-40 h-auto object-contain"
+              />
+            </div>
               <p className="text-gray-400 mb-4">
                 Transform your business with artificial intelligence and automation.
               </p>
@@ -33,18 +36,20 @@ export function Footer() {
                   href="https://www.linkedin.com/in/kevin-vannier-932a931a2/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                  className="w-10 h-10 rounded-full flex items-center justify-center 
+                             bg-[#1E2430] hover:bg-[#2A3140] transition-colors"
                 >
-                  <Linkedin className="w-5 h-5" />
+                  <Linkedin className="w-8 h-8" />
                 </a>
 
                 <a
                   href="https://www.instagram.com/lapetite.jade35/?hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+                  className="w-10 h-10 rounded-full flex items-center justify-center 
+                             bg-[#1E2430] hover:bg-[#2A3140] transition-colors"
                 >
-                  <Instagram className="w-5 h-5" />
+                  <Instagram className="w-8 h-8" />
                 </a>
               </div>
             </div>

@@ -1,7 +1,8 @@
 // src/components/fr/hero.tsx
 import { Button } from "./ui/button";
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import logoHeader from "../../assets/logo-header.png";
 
 type Lang = "en" | "fr" | "id";
 
@@ -12,12 +13,14 @@ type HeroProps = {
 
 export function Hero({ lang, onChangeLang }: HeroProps) {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-blue-50 to-white">
-      {/* Navigation */}
+    <section className="relative overflow-hidden bg-white">
       <nav className="container mx-auto px-4 py-6 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <Sparkles className="w-8 h-8 text-blue-600" />
-          <span className="text-xl">Ascend Automation</span>
+        <div className="flex items-center gap-3">
+          <img 
+            src={logoHeader}
+            alt="Ascend Automation"
+            className="h-10 w-auto"
+          />
         </div>
 
         <div className="hidden md:flex items-center gap-8">
@@ -80,8 +83,8 @@ export function Hero({ lang, onChangeLang }: HeroProps) {
       <div className="bg-gradient-to-br from-[#0A141A] via-[#0D1B24] to-[#000000] px-4 py-24 rounded-1xl overflow-hidden">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full mb-6">
-              <Sparkles className="w-4 h-4" />
+            <div className="inline-flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full mb-6">
+              <img src="/favicon.svg" alt="Ascend" className="w-4 h-4" />
               <span className="text-sm">
                 Intelligence Artificielle & Automatisation
               </span>
